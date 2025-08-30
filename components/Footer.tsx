@@ -1,9 +1,15 @@
 export default function Footer() {
   return (
     <footer
-      style={{ padding: '10px', textAlign: 'center', background: '#eee' }}
+      style={{
+        padding: "12px 16px",
+        background: "#e5e7eb",
+        color: "#111827",
+        textAlign: "center",
+        marginTop: "auto",
+      }}
     >
-      <p>© 2025 My Next.js Website</p>
+      <small>© {new Date().getFullYear()} My Next.js Demo</small>
     </footer>
   );
 }
